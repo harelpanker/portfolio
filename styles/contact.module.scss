@@ -1,0 +1,52 @@
+.header {
+  margin: 40px 0;
+  h4 {
+    color: rgba(27, 38, 44, 0.9);
+    font-weight: 500;
+    a {
+      color: #1b262c;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  }
+}
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  .label {
+    font-size: 0.8rem;
+    margin-bottom: 7px;
+    font-weight: 500;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+    border-bottom: 1px solid #0070f3;
+  }
+  .input {
+    border: none;
+    border-bottom: 1px solid #1b262c;
+    height: 2rem;
+    border-radius: 0;
+    font-size: 1rem;
+    padding: 0 10px;
+    background-color: transparent;
+  }
+  .textarea {
+    border: none;
+    border-bottom: 1px solid #1b262c;
+    height: 4rem;
+    border-radius: 0;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 0 10px;
+    background-color: transparent;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+    margin: 50px auto;
+  }
+}

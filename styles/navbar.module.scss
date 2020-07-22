@@ -1,0 +1,132 @@
+.nav {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  position: relative;
+  width: 100%;
+  padding: 0 20px;
+  top: 0;
+  height: 64px;
+  background-color: #1b262c;
+  color: #f8f8ff;
+}
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  h2 {
+    line-height: 1rem;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .navDrawer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 50vh;
+    width: 100vw;
+    background-color: rgba(27, 38, 44, 0.9);
+    top: 63px;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 2;
+    transform: translateY(0%);
+    transition: all 0.4s ease-in;
+    .link {
+      opacity: 0;
+      animation: navLinkFade ease-in-out 0.2s forwards;
+    }
+  }
+  .navDrawerCloased {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  .listDesktop {
+    display: flex;
+    list-style-type: none;
+    .link {
+      color: #fff;
+      margin-left: 15px;
+      transition: 0.2s ease-in all;
+      font-size: 0.9rem;
+    }
+    .link:hover {
+      font-size: 1rem;
+    }
+  }
+  .listMobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0;
+    .link {
+      font-weight: 300;
+      z-index: 2;
+      cursor: pointer;
+      color: #fff;
+      transition: 0.2s ease-in all;
+    }
+    .link:hover {
+      font-size: 2.1rem;
+    }
+  }
+  .hamburgerWrapper {
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    .lineTop {
+      width: 80%;
+      height: 3px;
+      background-color: ghostwhite;
+      margin-left: 0;
+      margin-bottom: 4px;
+      border-radius: 10px;
+      transition: all 0.2s ease-in-out;
+    }
+    .lineBottom {
+      width: 80%;
+      height: 3px;
+      margin-left: auto;
+      margin-top: 4px;
+      border-radius: 10px;
+      background-color: ghostwhite;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  .hamburgerWrapper:hover .lineTop {
+    transform: translateX(17px);
+  }
+  .hamburgerWrapper:hover .lineBottom {
+    transform: translateX(-17px);
+  }
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@media (max-width: 768px) {
+  .navContainer {
+    padding: 0 15px;
+  }
+}
