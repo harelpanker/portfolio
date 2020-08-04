@@ -24,13 +24,13 @@ export default function Home() {
         <h2 className={styles.seconderyHeader}>
           <div className={styles.sliderContainer}>
             <div className={styles.words}>
-              <span className={styles.sliderItem}>HTML - CSS/SCSS</span>
+              <span className={styles.sliderItem}>HTML - CSS</span>
+              <span className={styles.sliderItem}>SCSS/SASS</span>
               <span className={styles.sliderItem}>Javascript</span>
               <span className={styles.sliderItem}>React - Next.js</span>
               <span className={styles.sliderItem}>Wordpress</span>
               <span className={styles.sliderItem}>Webflow</span>
-              <span className={styles.sliderItem}>UX/UI</span>
-              <span className={styles.sliderItem}>SEO</span>
+              <span className={styles.sliderItem}>UX/UI | SEO</span>
             </div>
           </div>
         </h2>
