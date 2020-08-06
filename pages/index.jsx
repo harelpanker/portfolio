@@ -25,7 +25,7 @@ export default function Home() {
           <div className={styles.sliderContainer}>
             <div className={styles.words}>
               <span className={styles.sliderItem}>HTML - CSS</span>
-              <span className={styles.sliderItem}>SCSS/SASS</span>
+              <span className={styles.sliderItem}>SCSS / SASS</span>
               <span className={styles.sliderItem}>Javascript</span>
               <span className={styles.sliderItem}>React - Next.js</span>
               <span className={styles.sliderItem}>Wordpress</span>
