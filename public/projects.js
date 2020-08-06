@@ -39,5 +39,14 @@ const projectsList = [
     codeLink: "https://github.com/harelpanker/recipe-app-react",
     liveURL: "https://recipe-app-react-blue.vercel.app/",
   },
+  {
+    id: 5,
+    name: "Expanse tracker app",
+    img: "./projects-img/expanse-tracker.png",
+    text: "Expanse tracker app, built with Next.js",
+    tags: ["Next.js", "CRD"],
+    codeLink: "https://github.com/harelpanker/expense-tracker",
+    liveURL: "https://expense-tracker-theta.vercel.app/",
+  },
 ];
 export default projectsList;
