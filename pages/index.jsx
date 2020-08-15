@@ -11,7 +11,13 @@ export default function Home() {
         <title>Harel Panker | Front End Web Developer | UX/UI | SEO</title>
         <meta
           name='description'
-          content="My name is Harel Panker and I'm a Front End web developer some of my skills involved HTML, CSS\SCSS, Javascript, React, SEO, UX/UI and more | This is my web app portfolio"></meta>
+          content="My name is Harel Panker and I'm a Front End web developer some of my skills involved HTML, CSS\SCSS, Javascript, React, SEO, UX/UI and more | This is my web app portfolio"
+        />
+        {/* Google site verification */}
+        <meta
+          name='google-site-verification'
+          content='8Yg4JzMAMGU8vRGcu4gui1sbSiuIJNxIjw5Umau9Zr8'
+        />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
