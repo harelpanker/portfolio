@@ -77,3 +77,9 @@ a {
 strong {
   color: #006a71;
 }
+
+@media (max-width: 768px) {
+  .pageHeader {
+    font-size: 4rem;
+  }
+}
