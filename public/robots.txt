@@ -1,2 +1,4 @@
+Sitemap: https://portfolio-mu-sepia-36.vercel.app/sitemap.xml
+
 User-agent: *
-Allow: /
+Allow: /*
