@@ -54,21 +54,21 @@ const about = () => {
               Other things worth mentioning:{" "}
               <ul>
                 <li>
-                  I follow the best SEO{" "}
+                  I follow the best <strong>SEO</strong>{" "}
                   <span className={styles.smallText}>
                     (Search Engine Optimization)
                   </span>{" "}
                   practice, which means that I write a{" "}
                   <strong>semantic code</strong>, and handle everything that
                   Google loves to see in websites, including Robots.txt,
-                  Sitemap.xml, Title and Meta Description , and connecting the
+                  Sitemap.xml, Title and Meta Description, and connecting the
                   websites to Google Search Console and Google Analytics.
                 </li>
                 <li>
                   I'm following the <strong>UI/UX</strong>{" "}
                   <span className={styles.smallText}>
                     (User Interface / User Experience)
-                  </span>
+                  </span>{" "}
                   principles, meaning that the websites I'm building will be
                   more pleasant to use and more engageable.
                 </li>
