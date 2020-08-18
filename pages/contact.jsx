@@ -19,8 +19,8 @@ const contact = () => {
           <div className='shortLine'></div>
           <h1 className='pageHeader'>Get in touch</h1>
           <h4 className={styles.text}>
-            If you wanna get in touch, talk to me about a project collaboration
-            or just say hi, fill up the form below or send an email to{" "}
+            If you wanna get in touch, talk to me about a project collaboration,
+            or just say hi, fill in the form below or send an email to{" "}
             <a className={styles.link} href='mailto:web@panker.io'>
               web@panker.io
             </a>{" "}

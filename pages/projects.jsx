@@ -20,9 +20,7 @@ const projects = () => {
           <div className='shortLine'></div>
           <h1 className='pageHeader'>Projects</h1>
           <p className='text'>
-            So, on this page, you will be able to browse between my projects
-            some of them are part of my learning path, showing some of my
-            abilities and, some are projects that I built for clients.
+            Please enjoy browsing my projectson, most were done for clients, other were done as part of my professional portfolio
           </p>
         </header>
         <main>

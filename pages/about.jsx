@@ -23,31 +23,31 @@ const about = () => {
         <main className={styles.container}>
           <section className='text'>
             <p>
-              Hi! My name is <strong>Harel</strong>, and I'm a front-end web
+              Hi! My name is <strong>Harel</strong> and I'm a front-end web
               developer from Vienna, Austria.
             </p>
             <p>
-              I study in the Technion | Israel Institute of Technology, and
-              since then worked in the privet sector as a freelancer.
+              I studied at the Technion - the Israel Institute of Technology -
+              and since then have worked in the private sector as a freelancer.
             </p>
             <p>
-              I'm caring with me wide knowledge in the basics of web
-              development: <strong>HTML, CSS, and Javascript</strong>.
+              I have a wide knowledge of the basics of web development:{" "}
+              <strong>HTML, CSS, and Javascript</strong>.
             </p>
             <p>
-              More than that, I also know{" "}
+              In addition, I have specialized knowledge in{" "}
               <strong>
                 SACC/SCSS, Material-UI, Bootstrap, React.js, and Next.js
               </strong>
               .
             </p>
             <p>
-              When it comes to building websites to everyday business, I prefer
-              doing so with <strong>Webflow</strong>, which is a powerful CMS{" "}
+              When it comes to building websites for my clients, I generally use{" "}
+              <strong>Webflow</strong>, which is a powerful CMS{" "}
               <span className={styles.smallText}>
                 (Content Management System)
               </span>{" "}
-              that gives me a complete solution to design, built, and host the
+              offering a complete solution in designing, building, and hosting
               websites.
             </p>
             <p>
@@ -59,18 +59,17 @@ const about = () => {
                     (Search Engine Optimization)
                   </span>{" "}
                   practice, which means that I write a{" "}
-                  <strong>semantic code</strong>, and handle everything that
-                  Google loves to see in websites, including Robots.txt,
-                  Sitemap.xml, Title and Meta Description, and connecting the
-                  websites to Google Search Console and Google Analytics.
+                  <strong>semantic code</strong>, handle everything that Google
+                  loves to see in websites, and connect the websites to Google
+                  platforms.
                 </li>
                 <li>
-                  I'm following the <strong>UI/UX</strong>{" "}
+                  I follow <strong>UI/UX</strong>{" "}
                   <span className={styles.smallText}>
                     (User Interface / User Experience)
                   </span>{" "}
-                  principles, meaning that the websites I'm building will be
-                  more pleasant to use and more engageable.
+                  principles, meaning that the websites I build will be more
+                  pleasant to use and more engaging.
                 </li>
               </ul>
             </p>

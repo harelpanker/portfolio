@@ -2,7 +2,10 @@ import Head from "next/head";
 import Link from "next/link";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import clientsList from "../public/clients";
 import styles from "../styles/index.module.scss";
+import Client from "../components/Client";
+import Flicking from "@egjs/react-flicking";
 
 export default function Home() {
   return (
@@ -49,6 +52,18 @@ export default function Home() {
           </Link>
         </div>
       </header>
+
+      {/* <section>
+        <Flicking
+          className='flicking flicking0'
+          gap={10}
+          circular={true}
+          moveType='freeScroll'>
+          {clientsList.map((client) => (
+            <Client key={client.id} {...client} />
+          ))}
+        </Flicking>
+      </section> */}
 
       <Footer />
     </div>
