@@ -14,7 +14,10 @@ const Navbar = () => {
     <nav className={styles.nav}>
       <div className={styles.navContainer}>
         <Link href='/'>
-          <h2>Panker</h2>
+          <img
+            src='/images/logo-menu.svg'
+            alt='Logo - Harel Panker web developer and designer'
+          />
         </Link>
         {width < 768 ? (
           <>

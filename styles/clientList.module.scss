@@ -1,0 +1,14 @@
+.flickingWrapper {
+  position: relative;
+}
+.flicking {
+  display: flex;
+  justify-items: center;
+}
+.quoteIcon {
+  height: 160px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  opacity: 0.5;
+}

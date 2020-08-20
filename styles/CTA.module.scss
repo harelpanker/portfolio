@@ -1,0 +1,54 @@
+.section {
+  padding: 50px 20px;
+  /* background by SVGBackgrounds.com */
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23a6adff' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23ffffff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23fdfeff' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23fbfdff' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23f9fcff' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23f7fbff' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23f5faff' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23f4f9ff' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23f2f8ff' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23f0f6ff' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23eef5ff' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23ecf4ff' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23eaf3ff' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23e8f2ff' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23e6f1ff' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23e4f0ff' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23e2efff' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23e0eeff' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23deedff' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  .container {
+    max-width: 970px;
+    margin: 0 auto;
+    .grid {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text {
+        font-size: 3rem;
+        color: #1b262c;
+        font-weight: 600;
+      }
+      .btn {
+        color: ghostwhite;
+        background-color: #ffa41b;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        border-radius: 7px;
+        padding: 1rem 3.5rem;
+        line-height: 1rem;
+        text-decoration: none;
+        letter-spacing: 1px;
+        display: inline-block;
+        transition: 0.2s ease-in all;
+      }
+      .btn:hover {
+        background-color: #fa9908;
+        transform: translateY(-3px);
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .section {
+    .container {
+      .grid {
+        flex-direction: column;
+        .text {
+          text-align: center;
+          margin-top: 0;
+          line-height: 3.5rem;
+        }
+      }
+    }
+  }
+}

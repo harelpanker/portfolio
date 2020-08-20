@@ -6,7 +6,12 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.container}>
         <div className={styles.left}>
-          <h3>Panker</h3>
+          <Link href='/'>
+            <img
+              src='/images/Logo-footer.svg'
+              alt='Logo - Harel Panker web developer and designer'
+            />
+          </Link>
         </div>
         <div className={styles.socialWrapper}>
           <a href='mailto:web@panker.io' target='_blank'>

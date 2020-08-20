@@ -18,12 +18,8 @@
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  h2 {
-    line-height: 1rem;
-    z-index: 1;
-    font-weight: 500;
-    font-size: 1.5rem;
-    cursor: pointer;
+  img {
+    max-width: 140px;
   }
   .navDrawer {
     display: flex;
