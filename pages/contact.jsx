@@ -68,7 +68,7 @@ const contact = () => {
                 id='message'
               />
             </div>
-            <button className='btn-main' type='submit'>
+            <button className='btn btn-main' type='submit'>
               Send
             </button>
           </form>

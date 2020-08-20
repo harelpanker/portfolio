@@ -5,3 +5,27 @@
 .btnWrapper {
   margin-top: 40px;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  img {
+    height: 400px;
+    justify-self: end;
+    border-radius: 7px;
+  }
+}
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    img {
+      justify-self: center;
+      height: auto;
+      width: 100%;
+    }
+  }
+  .btnWrapper {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}
