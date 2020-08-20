@@ -8,7 +8,7 @@ const CTA = () => {
         <div className={styles.grid}>
           <h2 className={styles.text}>Let's Work Together</h2>
           <Link href='/contact'>
-            <a className={styles.btn}>Full Projects List</a>
+            <a className={styles.btn}>Contact Me</a>
           </Link>
         </div>
       </div>
