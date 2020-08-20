@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className={styles.navContainer}>
         <Link href='/'>
           <img
-            src='/images/Logo-menu.svg'
+            src='/images/Logo-footer.svg'
             alt='Logo - Harel Panker web developer and designer'
           />
         </Link>
