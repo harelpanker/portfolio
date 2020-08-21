@@ -51,11 +51,10 @@ const projectsList = [
   },
   {
     id: uuid(),
-    name: "Old age home",
+    name: "Old Age Home",
     img: "./projects-img/old-age-home.jpeg",
     text: "An index site with advanced filtering made for a client in Webflow",
     tags: ["Webflow", "Advanced Filtering", "RTL", "Index Site"],
-    // codeLink: "https://github.com/harelpanker/expense-tracker",
     liveURL: "https://www.parentshome.co.il/",
   },
 ];
