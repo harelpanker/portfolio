@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.bg}>
         <header className={styles.header}>
           <div className={styles.mainHeader}>
-            <h1>Hi! My name is Harel & I'm a Web Developer</h1>
+            <h1>Hi! My name is <span className={styles.underline}>Harel</span> & I'm a Web Developer</h1>
           </div>
           <h2 className={styles.seconderyHeader}>
             <div className={styles.sliderContainer}>

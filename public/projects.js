@@ -1,6 +1,7 @@
+import uuid from "react-uuid";
 const projectsList = [
   {
-    id: 1,
+    id: uuid(),
     name: "Weather App",
     img: "./projects-img/weather-app.png",
     text:
@@ -10,7 +11,7 @@ const projectsList = [
     liveURL: "https://react-weather-rose.vercel.app/",
   },
   {
-    id: 2,
+    id: uuid(),
     name: "Breaking Bad Index",
     img: "./projects-img/breaking-bad-app.png",
     text:
@@ -20,7 +21,7 @@ const projectsList = [
     liveURL: "https://breaking-bad-six.vercel.app/",
   },
   {
-    id: 3,
+    id: uuid(),
     name: "To Do App",
     img: "./projects-img/todo-app.png",
     text:
@@ -30,7 +31,7 @@ const projectsList = [
     liveURL: "https://todo-next-tau.vercel.app/",
   },
   {
-    id: 4,
+    id: uuid(),
     name: "Recipe App",
     img: "./projects-img/recipe-app.png",
     text:
@@ -40,13 +41,22 @@ const projectsList = [
     liveURL: "https://recipe-app-react-blue.vercel.app/",
   },
   {
-    id: 5,
+    id: uuid(),
     name: "Expense Tracker App",
     img: "./projects-img/expanse-tracker.png",
     text: "Expanse tracker app, built with Next.js",
     tags: ["Next.js", "CRUD"],
     codeLink: "https://github.com/harelpanker/expense-tracker",
     liveURL: "https://expense-tracker-theta.vercel.app/",
+  },
+  {
+    id: uuid(),
+    name: "Old age home",
+    img: "./projects-img/old-age-home.jpeg",
+    text: "An index site with advanced filtering made for a client in Webflow",
+    tags: ["Webflow", "Advanced Filtering", "RTL", "Index Site"],
+    // codeLink: "https://github.com/harelpanker/expense-tracker",
+    liveURL: "https://www.parentshome.co.il/",
   },
 ];
 export default projectsList;

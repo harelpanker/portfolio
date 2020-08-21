@@ -17,9 +17,11 @@ const Project = (p) => {
           </ul>
         </div>
         <div className={styles.links}>
-          <a className={styles.codeLink} href={p.codeLink} target='_blank'>
-            Code
-          </a>
+          {p.codeLink && (
+            <a className={styles.codeLink} href={p.codeLink} target='_blank'>
+              Code
+            </a>
+          )}
           <a className={styles.liveSite} href={p.liveURL} target='_blank'>
             Live Site
           </a>

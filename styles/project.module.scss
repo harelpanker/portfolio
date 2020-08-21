@@ -6,6 +6,14 @@
   background-color: white;
   border-radius: 10px;
   margin: 10px 0;
+  .links {
+    margin-bottom: 15px;
+  }
+  .disabled {
+    pointer-events: none;
+    color: #ccc;
+    margin-right: 10px;
+  }
 }
 .content {
   grid-column-start: 2;
@@ -21,12 +29,18 @@
   .ul {
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
     .tag {
-      display: inline-block;
-      margin-right: 7px;
-      padding: 3px;
+      display: flex;
+      align-items: center;
+      color: ghostwhite;
+      background-color: #ffa41b;
+      margin: 5px;
+      padding: 3px 5px;
       border-radius: 10px;
-      border: 1px solid #006a71;
+      // border: 1px solid #006a71;
+      text-align: center;
       line-height: 0.8rem;
       font-size: 0.8rem;
     }
@@ -72,6 +86,8 @@
     align-items: center;
     .projName {
       text-align: center;
+      font-size: 2rem;
+      line-height: 150%;
     }
     p {
       text-align: center;
