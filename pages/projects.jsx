@@ -20,7 +20,8 @@ const projects = () => {
           <div className='shortLine'></div>
           <h1 className='pageHeader'>Projects</h1>
           <p className='text'>
-            Please enjoy browsing my projectson, most were done for clients, other were done as part of my professional portfolio
+            Please enjoy browsing my projectson, most were done for clients,
+            other were done as part of my professional portfolio
           </p>
         </header>
         <main>
