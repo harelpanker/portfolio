@@ -15,7 +15,7 @@ const Skills = () => {
       <Flicking
         className={styles.flicking}
         circular={true}
-        gap={30}
+        gap={width > 768 ? 30 : 10}
         duration={500}
         plugins={flickingPlugins}
         moveType='freeScroll'>
