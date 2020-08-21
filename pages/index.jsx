@@ -21,7 +21,7 @@ export default function Home() {
         {/* Google site verification */}
         <meta
           name='google-site-verification'
-          content='8Yg4JzMAMGU8vRGcu4gui1sbSiuIJNxIjw5Umau9Zr8'
+          content='versEH1Nm_tqRhzMXDlXI0xlxzpu9RLCGqQJ5jlncRQ'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
@@ -30,7 +30,10 @@ export default function Home() {
       <div className={styles.bg}>
         <header className={styles.header}>
           <div className={styles.mainHeader}>
-            <h1>Hi! My name is <span className={styles.underline}>Harel</span> & I'm a Web Developer</h1>
+            <h1>
+              Hi! My name is <span className={styles.underline}>Harel</span> &
+              I'm a Web Developer
+            </h1>
           </div>
           <h2 className={styles.seconderyHeader}>
             <div className={styles.sliderContainer}>
