@@ -1,27 +1,29 @@
 import styles from "../styles/skills.module.scss";
 import skills from "../public/skills";
-import Flicking from "@egjs/react-flicking";
-import { AutoPlay } from "@egjs/flicking-plugins";
+import Slider from "react-slick";
 import useWindowDimensions from "../hooks/useWindowDimensions";
-
-const flickingPlugins = [new AutoPlay(2000, "NEXT")];
 
 const Skills = () => {
   const { width } = useWindowDimensions();
 
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: width > 768 ? 7 : 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
+
   return (
     <section className={styles.section}>
-      <Flicking
-        className={styles.flicking}
-        circular={true}
-        gap={width > 768 ? 30 : 15}
-        duration={400}
-        plugins={flickingPlugins}
-        moveType='freeScroll'>
+      <Slider {...settings}>
         {skills.map((skill) => (
           <img src={skill.img} alt={skill.name} key={skill.id} />
         ))}
-      </Flicking>
+      </Slider>
     </section>
   );
 };
