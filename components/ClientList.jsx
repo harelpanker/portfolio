@@ -19,7 +19,7 @@ const ClientList = () => {
             gap={30}
             duration={500}
             plugins={flickingPlugins}
-            moveType='freeScroll'>
+            moveType='snap'>
             {clientsList.map((client) => (
               <Client key={client.id} {...client} />
             ))}
