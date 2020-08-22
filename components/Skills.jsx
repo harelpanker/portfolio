@@ -8,7 +8,6 @@ const flickingPlugins = [new AutoPlay(2000, "NEXT")];
 
 const Skills = () => {
   const { width } = useWindowDimensions();
-  const gap = width > 768 ? 30 : 10;
 
   return (
     <section className={styles.section}>
@@ -16,7 +15,7 @@ const Skills = () => {
         className={styles.flicking}
         circular={true}
         bound={false}
-        gap={gap}
+        gap={30}
         duration={500}
         plugins={flickingPlugins}
         moveType='snap'>
