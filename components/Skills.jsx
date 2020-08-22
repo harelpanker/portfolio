@@ -16,10 +16,11 @@ const Skills = () => {
       <Flicking
         className={styles.flicking}
         circular={true}
+        bound={false}
         gap={30}
         duration={500}
         plugins={flickingPlugins}
-        moveType='freeScroll'>
+        moveType='snap'>
         {skills.map((skill) => (
           <img src={skill.img} alt={skill.name} key={skill.id} />
         ))}
