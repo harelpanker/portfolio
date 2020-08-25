@@ -79,7 +79,7 @@ a {
 }
 .pageContainer {
   max-width: 770px;
-  margin: 60px auto;
+  margin: 150px auto;
   padding: 0 15px;
 }
 .pageHeader {
@@ -110,6 +110,9 @@ strong {
   }
   .section {
     padding: 20px 10px;
+  }
+  .pageContainer {
+    margin: 120px auto;
   }
   .container-home {
     max-width: 770px;
