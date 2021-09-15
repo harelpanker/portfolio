@@ -13,7 +13,10 @@ const AbsuloteTop = () => {
           <div className='w-14 h-px bg-gray-50'></div>
         </li>
         <li>
-          <SMIcon target='_blank' rel='noopener noreferrer' href='#'>
+          <SMIcon
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.facebook.com/harel.panker'>
             <Image
               alt='facebook'
               width={20}
@@ -23,7 +26,10 @@ const AbsuloteTop = () => {
           </SMIcon>
         </li>
         <li>
-          <SMIcon target='_blank' rel='noopener noreferrer' href='#'>
+          <SMIcon
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://github.com/harelpanker'>
             <Image
               alt='facebook'
               width={20}
@@ -33,9 +39,12 @@ const AbsuloteTop = () => {
           </SMIcon>
         </li>
         <li>
-          <SMIcon target='_blank' rel='noopener noreferrer' href='#'>
+          <SMIcon
+            target='_blank'
+            rel='noopener noreferrer'
+            href='https://www.linkedin.com/in/panker-harel/'>
             <Image
-              alt='facebook'
+              alt='linkedin'
               width={20}
               height={20}
               src='/icons/linkedin-white.svg'
