@@ -25,7 +25,7 @@ export default function Home() {
                   transition={{ duration: 1 }}
                   variants={variants}>
                   <SpanText backgroundImg='bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500'>
-                    Strategy
+                    Strategy.
                   </SpanText>
                 </motion.span>
                 <motion.span
@@ -34,7 +34,7 @@ export default function Home() {
                   transition={{ duration: 1, delay: 1 }}
                   variants={variants}>
                   <SpanText backgroundImg='bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-pink-500'>
-                    Development
+                    Development.
                   </SpanText>
                 </motion.span>
                 <motion.span
@@ -43,7 +43,7 @@ export default function Home() {
                   transition={{ duration: 1, delay: 2 }}
                   variants={variants}>
                   <SpanText backgroundImg='bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-500'>
-                    Success
+                    Success.
                   </SpanText>
                 </motion.span>
               </h1>
