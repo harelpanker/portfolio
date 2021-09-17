@@ -13,8 +13,8 @@ const skills = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='w-full h-full flex flex-col text-gray-50 text-lg py-32'>
-          <div className='container text-center grid grid-cols-1 md:gap-12'>
+          className='w-full h-full flex flex-col dark:text-gray-50 text-gray-900 text-lg py-32 transition-all duration-500'>
+          <div className='container text-center grid grid-cols-1 md:gap-8 lg:gap-12'>
             <header>
               <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-600 text-6xl md:text-8xl font-bold'>
                 Skill Set

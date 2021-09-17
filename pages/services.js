@@ -13,7 +13,7 @@ const services = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='w-full h-full flex flex-col text-gray-50 text-lg py-32 overflow-hidden'>
+          className='w-full h-full flex flex-col dark:text-gray-50 text-gray-900 text-lg py-32 overflow-hidden transition-all duration-500'>
           <div className='container text-center grid grid-cols-1 gap-12'>
             <header>
               <div className='container flex flex-col items-center'>
@@ -31,6 +31,7 @@ const services = () => {
                 <ul className='grid grid-cols-1 md:grid-cols-2 gap-20'>
                   <li>
                     <Image
+                      className='filter invert dark:invert-0'
                       src='/icons/work.svg'
                       alt='My first service is maintannce for companyes'
                       width={120}
@@ -48,6 +49,7 @@ const services = () => {
                   </li>
                   <li>
                     <Image
+                      className='filter invert dark:invert-0'
                       src='/icons/design.svg'
                       alt='My second service is converting design'
                       width={120}

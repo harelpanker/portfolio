@@ -8,9 +8,8 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang='en' dir='ltr'>
+      <Html lang='en' dir='ltr' className=''>
         <Head>
-          <title>Harel Panker | Front End Web Developer</title>
           <meta
             name='description'
             content="I build websites for companies, small businesses, restaurants, law firms, clinics, etc. I'm an expert in building and designing those websites using the most modern tools and technologies that exist."

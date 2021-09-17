@@ -14,7 +14,7 @@ const Work = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='w-full h-full text-gray-50 text-lg py-32 mb-10'>
+          className='w-full h-full text-gray-50 text-lg py-32 mb-10 transition-all duration-500'>
           <header className='px-12 flex flex-col justify-center text-center mb-20 md:mb-36'>
             <div className='container'>
               <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-600 text-7xl md:text-8xl font-bold'>
