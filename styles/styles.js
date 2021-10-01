@@ -39,10 +39,6 @@ export function InputWrapper({ children }) {
   return <div className='flex flex-col gap-1'>{children}</div>;
 }
 
-export function Input({ type, name }) {
-  return <input className='rounded' type={type} name={name} />;
-}
-
 export function Button({ children, href, className }) {
   return (
     <Link href={href}>
