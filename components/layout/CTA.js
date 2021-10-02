@@ -9,9 +9,9 @@ const CTA = () => {
             Let's work together!
           </h2>
           <p className='md:text-lg'>
-            Are you ready to start, do you have a question, or just say hi?
+            Are you ready to start, do you have a question, are you interested?
             <br />
-            feel free to content me!
+            feel free to contact me!
           </p>
         </header>
         <div className='container mt-4 flex justify-center'>
