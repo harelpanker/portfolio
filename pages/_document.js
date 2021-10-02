@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name='description'
-            content="I build websites for companies, small businesses, restaurants, law firms, clinics, etc. I'm an expert in building and designing those websites using the most modern tools and technologies that exist."
+            content='Hi! My name is Harel. I can convert your design into a website, or improve it by using the best practices and the most modern tools'
           />
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='website' />
@@ -22,7 +22,7 @@ class MyDocument extends Document {
           />
           <meta
             property='og:description'
-            content="I build websites for companies, small businesses, restaurants, law firms, clinics, etc. I'm an expert in building and designing those websites using the most modern tools and technologies that exist."
+            content='Hi! My name is Harel. I can convert your design into a website, or improve it by using the best practices and the most modern tools'
           />
           <meta property='og:url' content='https://panker.io/' />
           <meta
