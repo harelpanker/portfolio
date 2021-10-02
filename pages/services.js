@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Head from 'next/head';
 import { motion, AnimatePresence } from 'framer-motion';
+import CTA from '../components/layout/CTA.js';
 
 const services = () => {
   return (
@@ -64,6 +65,7 @@ const services = () => {
                 </ul>
               </div>
             </section>
+            <CTA />
           </div>
         </motion.main>
       </AnimatePresence>

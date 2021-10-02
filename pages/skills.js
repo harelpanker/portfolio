@@ -1,6 +1,7 @@
 import SkillList from '../components/skills/SkillList';
 import { motion, AnimatePresence } from 'framer-motion';
 import Head from 'next/head';
+import CTA from '../components/layout/CTA.js';
 
 const skills = () => {
   return (
@@ -26,6 +27,7 @@ const skills = () => {
               </div>
             </section>
           </div>
+          <CTA />
         </motion.main>
       </AnimatePresence>
     </>

@@ -19,7 +19,7 @@ const Recommendations = () => {
           spaceBetween={50}
           slidesPerView={1}
           loop={true}
-          autoplay={{ delay: 5500, disableOnInteraction: false }}
+          autoplay={{ delay: 6500, disableOnInteraction: false }}
           grabCursor={true}>
           {recommendations.map((recommendation) => (
             <SwiperSlide
@@ -36,12 +36,19 @@ const Recommendations = () => {
                 alt={recommendation.name}
                 className='object-cover rounded-full'
               />
-              <h3 className='uppercase text-lg mt-4'>{recommendation.name}</h3>
-              <p className='text-sm'>{recommendation.position}</p>
+              <a
+                href={recommendation.linkedinUrl}
+                target='_blank'
+                rel='noopener noreferrer'>
+                <h3 className='uppercase text-lg mt-4'>
+                  {recommendation.name}
+                </h3>
+                <p className='text-sm'>{recommendation.position}</p>
+              </a>
             </SwiperSlide>
           ))}
         </Swiper>
-        <p className='italic absolute -top-6 left-4 md:left-7 text-9xl opacity-30'>
+        <p className='italic absolute -top-5 left-4 md:left-7 text-9xl opacity-30'>
           "
         </p>
       </div>

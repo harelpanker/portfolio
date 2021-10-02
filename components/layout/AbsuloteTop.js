@@ -5,7 +5,7 @@ import DarkMode from './DarkMode';
 
 const AbsuloteTop = () => {
   return (
-    <div className='fixed bg-gray-50 dark:bg-gray-900 top-0 right-0 z-20 w-full py-4 md:py-6 px-4 md:px-12 flex justify-between align-middle md:justify-end'>
+    <div className='fixed bg-gray-50 dark:bg-gray-900 top-0 right-0 z-40 w-full py-4 md:py-6 px-4 md:px-12 flex justify-between align-middle md:justify-end'>
       <div className='dark:text-gray-50 text-gray-900 text-4xl font-extrabold relative top-1 flex gap-4'>
         <div className='md:hidden inline-block'>
           <Link href='/'>P.</Link>
