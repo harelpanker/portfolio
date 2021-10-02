@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { SpanText } from '../../styles/styles';
+import Lottie from 'lottie-react';
+import scroll from '../../public/lotties/scroll.json';
 
 const Haeder = () => {
   const variants = {
@@ -8,7 +10,7 @@ const Haeder = () => {
   };
 
   return (
-    <header className='text-transparent h-screen w-full flex items-center justify-center'>
+    <header className='text-transparent h-screen w-full flex items-center justify-center relative'>
       <div className='container'>
         <h1 className='lg:text-8xl leading-none font-extrabold flex flex-col gap-8 text-center uppercase md:text-7xl text-4xl'>
           <motion.span
@@ -40,6 +42,17 @@ const Haeder = () => {
           </motion.span>
         </h1>
       </div>
+      <motion.div
+        initial='hidden'
+        animate='visible'
+        transition={{ duration: 1, delay: 3 }}
+        variants={variants}
+        className='absolute bottom-24 md:bottom-10 flex justify-center'>
+        <Lottie
+          className='w-6 filter invert dark:invert-0'
+          animationData={scroll}
+        />
+      </motion.div>
     </header>
   );
 };
