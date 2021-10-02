@@ -18,7 +18,7 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='w-full min-h-screen dark:bg-gray-900 bg-gray-50 flex flex-col transition-all duration-500 relative'>
+          className='w-full pb-16 min-h-screen dark:bg-gray-900 bg-gray-50 flex flex-col transition-all duration-500 relative'>
           <Haeder />
           <About />
           <Recommendations />
