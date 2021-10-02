@@ -31,7 +31,7 @@ const About = () => {
             <p className='mb-3 opacity-80'>
               As a freelancer,{' '}
               <Link href='/skills'>
-                <a className='text-blue-500 opacity-100 transition-all duration-300 hover:opacity-80'>
+                <a className='text-blue-400 opacity-100 transition-all duration-300 hover:opacity-80'>
                   my knowledge is vast
                 </a>
               </Link>
@@ -42,7 +42,7 @@ const About = () => {
               I use the most modern tools, with the best practice in mind to
               build{' '}
               <Link href='/work'>
-                <a className='text-blue-500 opacity-100 transition-all duration-300 hover:opacity-80'>
+                <a className='text-blue-400 opacity-100 transition-all duration-300 hover:opacity-80'>
                   my clients‘ website.
                 </a>
               </Link>{' '}
