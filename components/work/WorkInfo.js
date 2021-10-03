@@ -6,11 +6,11 @@ const WorkInfo = ({ project }) => {
       href={project.url}
       target='_blank'
       rel='noopener noreferrer'
-      className='group relative p-3 md:p-12 overflow-hidden rounded-xl h-full w-full'>
+      className='group relative p-3 md:p-12 aspect-w-1440 aspect-h-793 overflow-hidden rounded-xl h-full w-full'>
       {/* image */}
       <div className='absolute inset-0 w-full h-full z-10 transition-all group-hover:scale-105'>
         <Image
-          className='object-cover'
+          className='w-full h-full object-center object-cover'
           src={project.image}
           alt={project.title}
           layout='fill'

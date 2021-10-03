@@ -13,6 +13,10 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
+    aspectRatio: {
+      1440: '1440',
+      793: '793',
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -1019,6 +1023,7 @@ module.exports = {
     strokeWidth: ['responsive'],
     tableLayout: ['responsive'],
     textAlign: ['responsive'],
+    aspectRatio: ['responsive', 'hover'],
     textColor: [
       'responsive',
       'dark',
