@@ -11,27 +11,11 @@ const recommendations = [
   },
   {
     id: uuid(),
-    body: 'Skillful designer and a passionate web developer. Delivers Top-notch websites. Highly recommended to work with!',
-    name: 'kkkkkkkkkk',
-    position: 'Full Stack Software Engineer at SpaceBL',
-    image: '/images/recommendations/elad.jpeg',
-    linkedinUrl: 'https://www.linkedin.com/in/10547626/',
-  },
-  {
-    id: uuid(),
-    body: 'Skillful designer and a passionate web developer. Delivers Top-notch websites. Highly recommended to work with!',
-    name: 'aaaaaaaaaa',
-    position: 'Full Stack Software Engineer at SpaceBL',
-    image: '/images/recommendations/elad.jpeg',
-    linkedinUrl: 'https://www.linkedin.com/in/10547626/',
-  },
-  {
-    id: uuid(),
-    body: 'Skillful designer and a passionate web developer. Delivers Top-notch websites. Highly recommended to work with!',
-    name: 'hhhhhhhhhh',
-    position: 'Full Stack Software Engineer at SpaceBL',
-    image: '/images/recommendations/elad.jpeg',
-    linkedinUrl: 'https://www.linkedin.com/in/10547626/',
+    body: 'A very talented and resourceful developer that I am happy to work with.',
+    name: 'Shimon Tolts',
+    position: 'CEO & Co-Founder at Datree, AWS Community Hero',
+    image: '/images/recommendations/shimon.png',
+    linkedinUrl: 'https://www.linkedin.com/in/tolts/',
   },
 ];
 
