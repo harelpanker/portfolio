@@ -52,7 +52,7 @@ const contact = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='h-full flex items-center py-32 max-w-full transition-all duration-500'>
+          className='min-h-screen flex items-center py-32 max-w-full transition-all duration-500'>
           <div className='container flex flex-col items-center'>
             <h1 className='text-center mb-6 font-black text-6xl sm:text-8xl bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-yellow-600'>
               Contact Me
