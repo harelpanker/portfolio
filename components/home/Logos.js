@@ -11,11 +11,11 @@ const Logos = () => {
             Companies I'm proud working with
           </h2>
         </header>
-        <ul className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 content-center items-center'>
+        <ul className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 md:gap-4 content-center items-center'>
           {logos.map((logo) => (
             <li
               key={logo.id}
-              className='flex justify-center transition-all hover:-translate-y-1 filter invert dark:invert-0 lg:opacity-80 lg:hover:opacity-100 cursor-pointer'>
+              className='flex justify-center p-4 md:p-0 transition-all hover:-translate-y-1 filter invert dark:invert-0 lg:opacity-80 lg:hover:opacity-100 cursor-pointer'>
               <Link href={logo.url}>
                 <a>
                   <Image
