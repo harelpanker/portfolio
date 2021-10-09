@@ -13,7 +13,7 @@ const thanks = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
-          className='w-full overflow-hidden h-full flex flex-col items-center justify-center text-center dark:text-gray-50 text-gray-700 text-lg py-32 transition-all duration-500'>
+          className='w-full overflow-hidden min-h-screen h-full flex flex-col items-center justify-center text-center dark:text-gray-50 text-gray-700 text-lg py-32 transition-all duration-500'>
           <h1 className='bg-clip-text text-transparent bg-gradient-to-r from-purple-700 to-pink-600 text-8xl font-bold'>
             Thank You!
           </h1>
