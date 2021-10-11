@@ -19,7 +19,7 @@ const Recommendations = () => {
           spaceBetween={50}
           slidesPerView={1}
           loop={true}
-          // autoplay={{ delay: 6500, disableOnInteraction: false }}
+          autoplay={{ delay: 6500, disableOnInteraction: false }}
           grabCursor={true}>
           {recommendations.map((recommendation) => (
             <SwiperSlide
