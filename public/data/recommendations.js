@@ -9,14 +9,14 @@ const recommendations = [
     image: '/images/recommendations/elizabeth.jpeg',
     linkedinUrl: 'https://www.linkedin.com/in/amandaelizabethcrum/',
   },
-  {
-    id: uuid(),
-    body: 'A passionate web developer and a skilful designer. Delivers Top-notch websites. Highly recommended to work with!',
-    name: 'Elad Grief',
-    position: 'Full Stack Software Engineer at SpaceBL',
-    image: '/images/recommendations/elad.jpeg',
-    linkedinUrl: 'https://www.linkedin.com/in/10547626/',
-  },
+  // {
+  //   id: uuid(),
+  //   body: 'A passionate web developer and a skilful designer. Delivers Top-notch websites. Highly recommended to work with!',
+  //   name: 'Elad Grief',
+  //   position: 'Full Stack Software Engineer at SpaceBL',
+  //   image: '/images/recommendations/elad.jpeg',
+  //   linkedinUrl: 'https://www.linkedin.com/in/10547626/',
+  // },
   {
     id: uuid(),
     body: 'A very talented and resourceful developer that I am happy to work with.',
