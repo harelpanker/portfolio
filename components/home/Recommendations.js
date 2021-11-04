@@ -26,9 +26,11 @@ const Recommendations = () => {
               key={recommendation.id}
               tag='li'
               className='flex flex-col items-center text-center'>
-              <p className='text-2xl max-w-xl italic mb-6'>
-                {recommendation.body}
-              </p>
+              <blockquote>
+                <p className='text-2xl max-w-xl italic mb-6'>
+                  {recommendation.body}
+                </p>
+              </blockquote>
               <Image
                 width={100}
                 height={100}
