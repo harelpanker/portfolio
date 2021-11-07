@@ -13,7 +13,9 @@ const WorkInfo = ({ project }) => {
           className='w-full h-full object-center object-cover'
           src={project.image}
           alt={project.title}
-          layout='fill'
+          width={2880}
+          height={1586}
+          layout='responsive'
           blurDataURL
           placeholder='blur'
         />
