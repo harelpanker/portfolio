@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { GA_TRACKING_ID } from '../lib/gtag';
+import { GA_TRACKING_ID } from '../lib/gtm';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -66,6 +66,14 @@ class MyDocument extends Document {
           />
         </Head>
         <body className='antialiased box-border m-0 p-0 font-josefin'>
+          <noscript>
+            <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GA_TRACKING_ID}`}
+              height='0'
+              width='0'
+              style={{ display: 'none', visibility: 'hidden' }}
+            />
+          </noscript>
           <Main />
           <NextScript />
         </body>
