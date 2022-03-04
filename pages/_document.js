@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-import { GA_TRACKING_ID } from '../lib/gtm';
+import { GTM_TRACKING_ID } from '../lib/gtm';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -38,7 +38,7 @@ class MyDocument extends Document {
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${GTM_TRACKING_ID}`}
           />
           <script
             dangerouslySetInnerHTML={{
@@ -46,10 +46,26 @@ class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
+            gtag('config', '${GTM_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
           `,
+            }}
+          />
+
+          {/* google analytics */}
+          <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-X7QNR4S3EN`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `window.dataLayer = window.dataLayer || [];
+                      function gtag(){dataLayer.push(arguments);}
+                      gtag('js', new Date());
+                      gtag('config', 'G-X7QNR4S3EN', {
+                      page_path: window.location.pathname,
+                      });`,
             }}
           />
 
@@ -68,7 +84,7 @@ class MyDocument extends Document {
         <body className='antialiased box-border m-0 p-0 font-josefin'>
           <noscript>
             <iframe
-              src={`https://www.googletagmanager.com/ns.html?id=${GA_TRACKING_ID}`}
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_TRACKING_ID}`}
               height='0'
               width='0'
               style={{ display: 'none', visibility: 'hidden' }}
