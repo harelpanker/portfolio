@@ -101,7 +101,7 @@ const projectsData = [
   {
     id: uuid(),
     image: img13,
-    title: 'Notch | Social Media Insurance',
+    title: 'Notch | Digital Assets Insurance',
     url: 'https://www.get-notch.com/',
     shortDescription: 'Built with Webflow | Insurance Company',
   },
