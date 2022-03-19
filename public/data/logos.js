@@ -9,6 +9,7 @@ import logo8 from '../images/logos/lin.svg';
 import logo9 from '../images/logos/sedric.svg';
 import logo10 from '../images/logos/skywatch.svg';
 import logo11 from '../images/logos/voom.svg';
+import logo12 from '../images/logos/notch.svg';
 
 import uuid from 'react-uuid';
 
@@ -33,12 +34,6 @@ const logos = [
   },
   {
     id: uuid(),
-    image: logo4,
-    name: 'Validify',
-    url: 'https://www.validify.app/',
-  },
-  {
-    id: uuid(),
     image: logo5,
     name: 'EverAfter',
     url: 'https://www.everafter.ai/',
@@ -57,12 +52,6 @@ const logos = [
   },
   {
     id: uuid(),
-    image: logo8,
-    name: 'Lin Health',
-    url: 'https://www.lin.health/',
-  },
-  {
-    id: uuid(),
     image: logo9,
     name: 'Sedric',
     url: 'https://www.sedric.ai/',
@@ -75,9 +64,27 @@ const logos = [
   },
   {
     id: uuid(),
+    image: logo4,
+    name: 'Validify',
+    url: 'https://www.validify.app/',
+  },
+  {
+    id: uuid(),
     image: logo11,
     name: 'Voom',
     url: 'https://www.voominsurance.com/',
+  },
+  {
+    id: uuid(),
+    image: logo12,
+    name: 'Notch',
+    url: 'https://www.get-notch.com/',
+  },
+  {
+    id: uuid(),
+    image: logo8,
+    name: 'Lin Health',
+    url: 'https://www.lin.health/',
   },
 ];
 export default logos;

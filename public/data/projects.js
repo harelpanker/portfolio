@@ -11,6 +11,7 @@ import img9 from '../images/projects/voom.png';
 import img10 from '../images/projects/permit.png';
 import img11 from '../images/projects/sedric.png';
 import img12 from '../images/projects/skywatch.png';
+import img13 from '../images/projects/notch.png';
 
 const projectsData = [
   {
@@ -95,6 +96,13 @@ const projectsData = [
     image: img12,
     title: 'Skywatch | Drone/Aviation Insurance',
     url: 'https://www.skywatch.ai/us/main-page',
+    shortDescription: 'Built with Webflow | Insurance Company',
+  },
+  {
+    id: uuid(),
+    image: img13,
+    title: 'Notch | Social Media Insurance',
+    url: 'https://www.get-notch.com/',
     shortDescription: 'Built with Webflow | Insurance Company',
   },
 ];
