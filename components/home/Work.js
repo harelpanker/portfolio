@@ -1,5 +1,6 @@
 import WorkList from '../../components/work/WorlList';
 import { Button } from '../../styles/styles';
+import WorkSlider from './WorkSlider';
 
 const Work = () => {
   return (
@@ -9,7 +10,8 @@ const Work = () => {
           Recent Work
         </h2>
       </header>
-      <WorkList number={3} />
+      <WorkSlider />
+      {/* <WorkList number={3} /> */}
       <div className='container mt-12 flex justify-center'>
         <Button
           href='/work'

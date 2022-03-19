@@ -7,6 +7,8 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import * as ga from '../lib/gtm';
 
+import '@splidejs/splide/dist/css/splide.min.css';
+
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
