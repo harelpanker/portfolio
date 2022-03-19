@@ -53,7 +53,7 @@ class MyDocument extends Document {
             }}
           />
 
-          {/* google analytics */}
+          {/* gtm */}
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=G-X7QNR4S3EN`}

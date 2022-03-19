@@ -2,7 +2,6 @@ import 'tailwindcss/tailwind.css';
 import '../styles/globals.css';
 import Layout from '../components/layout/Layout';
 
-import Router from 'next/router';
 import { route } from 'next/dist/server/router';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';

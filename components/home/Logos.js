@@ -1,6 +1,5 @@
 import logos from '../../public/data/logos';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const Logos = () => {
   return (
@@ -11,21 +10,14 @@ const Logos = () => {
             Companies I'm proud working with
           </h2>
         </header>
-        <ul className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 md:gap-4 content-center items-center'>
+        <ul className='flex gap-10 justify-center flex-wrap items-center'>
           {logos.map((logo) => (
             <li
               key={logo.id}
-              className='flex justify-center p-4 md:p-0 transition-all hover:-translate-y-1 filter invert dark:invert-0 lg:opacity-80 lg:hover:opacity-100 cursor-pointer'>
-              <Link href={logo.url}>
-                <a>
-                  <Image
-                    src={logo.image}
-                    alt={logo.name}
-                    width={150}
-                    height={100}
-                  />
-                </a>
-              </Link>
+              className='flex w-[43%] sm:w-auto max-w-[10rem] justify-center p-4 md:p-0 transition-all hover:-translate-y-1 filter invert dark:invert-0 lg:opacity-80 lg:hover:opacity-100 cursor-pointer'>
+              <a href={logo.url} target='_blank' rel='noopener noreferrer'>
+                <Image src={logo.image} alt={logo.name} />
+              </a>
             </li>
           ))}
         </ul>
