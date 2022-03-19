@@ -18,7 +18,7 @@ const AbsuloteTop = () => {
         <li>
           <div className='w-14 h-px dark:bg-gray-50 bg-gray-900'></div>
         </li>
-        <li>
+        {/* <li>
           <SMIcon
             target='_blank'
             rel='noopener noreferrer'
@@ -31,7 +31,7 @@ const AbsuloteTop = () => {
               src='/icons/facebook-white.svg'
             />
           </SMIcon>
-        </li>
+        </li> */}
         <li>
           <SMIcon
             target='_blank'
@@ -39,7 +39,7 @@ const AbsuloteTop = () => {
             href='https://github.com/harelpanker'>
             <Image
               className='filter invert dark:invert-0'
-              alt='facebook'
+              alt='github'
               width={20}
               height={20}
               src='/icons/github-white.svg'
