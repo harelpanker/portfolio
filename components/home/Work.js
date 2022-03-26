@@ -11,7 +11,7 @@ const Work = () => {
         </h2>
       </header>
       <WorkSlider />
-      {/* <WorkList number={3} /> */}
+
       <div className='container mt-12 flex justify-center'>
         <Button
           href='/work'

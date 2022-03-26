@@ -12,6 +12,7 @@ import img10 from '../images/projects/permit.png';
 import img11 from '../images/projects/sedric.png';
 import img12 from '../images/projects/skywatch.png';
 import img13 from '../images/projects/notch.png';
+import img14 from '../images/projects/apono.png';
 
 const projectsData = [
   {
@@ -104,6 +105,13 @@ const projectsData = [
     title: 'Notch | Digital Assets Insurance',
     url: 'https://www.get-notch.com/',
     shortDescription: 'Built with Webflow | Insurance Company',
+  },
+  {
+    id: uuid(),
+    image: img14,
+    title: 'Apono | Permission Management',
+    url: 'https://www.apono.io/',
+    shortDescription: 'Built with Webflow | High Tech',
   },
 ];
 
