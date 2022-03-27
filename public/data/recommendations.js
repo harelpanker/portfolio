@@ -9,14 +9,14 @@ const recommendations = [
     image: '/images/recommendations/elizabeth.jpeg',
     linkedinUrl: 'https://www.linkedin.com/in/amandaelizabethcrum/',
   },
-  // {
-  //   id: uuid(),
-  //   body: 'A passionate web developer and a skilful designer. Delivers Top-notch websites. Highly recommended to work with!',
-  //   name: 'Elad Grief',
-  //   position: 'Full Stack Software Engineer at SpaceBL',
-  //   image: '/images/recommendations/elad.jpeg',
-  //   linkedinUrl: 'https://www.linkedin.com/in/10547626/',
-  // },
+  {
+    id: uuid(),
+    body: 'I’m finding it hard to write a review for Harel. Not because he doesn’t deserve it. The opposite. He’s so good at his job and such a pleasure to work with that I want to keep him for me and our company. He’s hard working, creative, energetic, and very knowledgable. In all honesty, I could not recommend him more highly.',
+    name: 'Eitan Armon',
+    position: 'Growth Manager at Lin Health',
+    image: '/images/recommendations/eitan.jpeg',
+    linkedinUrl: 'https://www.linkedin.com/in/eitanarmon/',
+  },
   {
     id: uuid(),
     body: 'A very talented and resourceful developer that I am happy to work with.',
