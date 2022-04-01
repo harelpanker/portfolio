@@ -15,7 +15,7 @@ const About = () => {
             className='object-cover max-h-full'
           />
         </figure>
-        <article className='p-10 max-h-full'>
+        <article className='md:p-10 p-3 py-8 max-h-full'>
           <header className='mb-8'>
             <h2 className='text-4xl font-bold'>
               Hi!

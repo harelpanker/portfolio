@@ -18,6 +18,7 @@ const Recommendations = () => {
           wrapperTag='ul'
           spaceBetween={50}
           slidesPerView={1}
+          autoHeight={true}
           loop={true}
           autoplay={{ delay: 6500, disableOnInteraction: false }}
           grabCursor={true}>
@@ -27,7 +28,7 @@ const Recommendations = () => {
               tag='li'
               className='flex flex-col items-center text-center'>
               <blockquote>
-                <p className='text-2xl max-w-xl italic mb-6'>
+                <p className='md:text-2xl text-xl max-w-xl italic mb-6'>
                   {recommendation.body}
                 </p>
               </blockquote>
