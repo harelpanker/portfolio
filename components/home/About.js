@@ -43,7 +43,7 @@ const About = () => {
               build{' '}
               <Link href='/work'>
                 <a className='text-blue-400 opacity-100 transition-all duration-300 hover:opacity-80'>
-                  my clients‘ website.
+                  my clients‘ Websites.
                 </a>
               </Link>{' '}
               This gives them the edge in the competitive environment of the

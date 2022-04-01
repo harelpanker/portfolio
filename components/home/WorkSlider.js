@@ -25,7 +25,7 @@ const WorkSlider = () => {
           speed: 1200,
         }}>
         {projectsData
-          .slice(0)
+          .sort((a, b) => 0.5 - Math.random())
           .reverse()
           .map((proj) => (
             <SplideSlide

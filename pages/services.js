@@ -59,7 +59,7 @@ const services = () => {
                     <h2 className='mt-6 mb-3 text-3xl font-bold'>Convertion</h2>
                     <p className='opacity-80'>
                       I'll convert your design into a website. No metter if it's
-                      from Figma, DX or Sketch.
+                      from Figma, XD or Sketch.
                     </p>
                   </li>
                 </ul>
