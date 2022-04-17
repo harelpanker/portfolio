@@ -33,7 +33,7 @@ const skillsData = [
   {
     id: uuid(),
     icon: '/icons/react.svg',
-    title: 'Fraimworks / Liberrars',
+    title: 'Frameworks / Liberrars',
     items: [
       { id: uuid(), name: 'React.js' },
       { id: uuid(), name: 'NextJS' },
