@@ -13,8 +13,24 @@ import img11 from '../images/projects/sedric.png';
 import img12 from '../images/projects/skywatch.png';
 import img13 from '../images/projects/notch.png';
 import img14 from '../images/projects/apono.png';
+import img15 from '../images/projects/port.png';
+import img16 from '../images/projects/hub.png';
 
 const projectsData = [
+  {
+    id: uuid(),
+    image: img16,
+    title: 'Datree | Datree docs',
+    url: 'https://hub.datree.io/',
+    shortDescription: 'Built with Docusaurus | Documentation site',
+  },
+  {
+    id: uuid(),
+    image: img15,
+    title: 'GetPort | DevPortal in Minutes',
+    url: 'https://www.getport.io/',
+    shortDescription: 'Built with Webflow | High Tech',
+  },
   {
     id: uuid(),
     image: img14,
