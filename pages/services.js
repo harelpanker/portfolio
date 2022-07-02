@@ -39,7 +39,7 @@ const services = () => {
                       height={120}
                     />
                     <h2 className='mt-6 mb-3 text-3xl font-bold'>
-                      Maintanence
+                      Maintenance
                     </h2>
                     <p className='opacity-80'>
                       Service on an hourly basis{' '}
