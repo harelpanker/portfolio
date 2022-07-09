@@ -80,11 +80,6 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;700&display=swap'
             rel='stylesheet'
           />
-          {/* font 2 */}
-          <link
-            href='https://api.fontshare.com/v2/css?f[]=asap@1,2&display=swap'
-            rel='stylesheet'
-          />
         </Head>
         <body className='antialiased box-border m-0 p-0 font-sofia'>
           <noscript>
