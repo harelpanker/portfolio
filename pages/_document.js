@@ -12,15 +12,15 @@ class MyDocument extends Document {
       <Html lang='en' dir='ltr' className=''>
         <Head>
           <meta
+            property='og:title'
+            content='Harel Panker | Front End Web Developer'
+          />
+          <meta
             name='description'
             content='Hi! My name is Harel. I can convert your design into a website, or improve it by using the best practices and the most modern tools'
           />
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='website' />
-          <meta
-            property='og:title'
-            content='Harel Panker | Front End Web Developer'
-          />
           <meta
             property='og:description'
             content='Hi! My name is Harel. I can convert your design into a website, or improve it by using the best practices and the most modern tools'
@@ -81,7 +81,7 @@ class MyDocument extends Document {
             rel='stylesheet'
           />
         </Head>
-        <body className='antialiased box-border m-0 p-0 font-josefin'>
+        <body className='antialiased box-border m-0 p-0 font-sofia'>
           <noscript>
             <iframe
               src={`https://www.googletagmanager.com/ns.html?id=${GTM_TRACKING_ID}`}
