@@ -268,6 +268,8 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      sofia: ['Sofia Pro', 'sans-serif'],
+      asap: ['Asap', 'sans-serif'],
       josefin: ['Josefin Sans', 'ui-sans-serif', 'sans-serif'],
       sans: [
         'ui-sans-serif',
